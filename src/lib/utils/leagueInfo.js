@@ -23,7 +23,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
    {
        "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "name": "Barbour",
   "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
    "location": "The Depths of Hell", // (optional)
      "bio": "Lorem ipsum...",
@@ -45,13 +45,13 @@ export const managers = [
    },
    {
      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-     "name": "Your Name",
+     "name": "Barbour's Burner",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-     "location": "Brooklyn", // (optional)
-     "bio": "Lorem ipsum...",
+     "location": "WV", // (optional)
+     "bio": "in Tuanon we trust",
      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-     "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-     "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+     "fantasyStart": 2019, // (optional) when did the manager start playing fantasy football
+     "favoriteTeam": "MIA", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
    "rival": {
       name: "Rival", // Can be anything (usually your rival's name)
@@ -67,13 +67,13 @@ export const managers = [
    },
    {
      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-     "name": "Your Name",
+     "name": "EnjoyMeSucka",
      "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
      "location": "Brooklyn", // (optional)
-     "bio": "Lorem ipsum...",
+     "bio": "The Monsta From La Mancha.",
      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-     "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-     "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+     "fantasyStart": 1 BCE, // (optional) when did the manager start playing fantasy football
+     "favoriteTeam": "MIA", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
      "rival": {
        name: "Rival", // Can be anything (usually your rival's name)
@@ -81,9 +81,9 @@ export const managers = [
        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
      },
      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-     "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+     "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-     "philosophy": "Your fantasy team's philosophy",
+     "philosophy": "From bodily fluids and hair samples, we've determined that a bunch of old homeless dudes had an orgy in there.",
      "tradingScale": 10, // 1 - 10
      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
    },
