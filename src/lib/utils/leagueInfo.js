@@ -23,7 +23,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
    {
      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-     "managerID": "396524153546534912",
+     // "managerID": "396524153546534912",
        "name": "Barbour",
   "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
    "location": "The Depths of Hell", // (optional)
