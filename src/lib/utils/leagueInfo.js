@@ -27,7 +27,7 @@ export const managers = [
      {
       // "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "managerID": "396524153546534912" ,
-       "name": "Barbour",
+       "name": "TheDirtyHarry",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "The Bone Yard", // (optional)
        "bio": "I once was blind",
@@ -50,9 +50,9 @@ export const managers = [
     {
      // "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
          "managerID": "416859641922732032" ,
-      "name": "Elijah",
+      "name": "ElijahF",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "West by God", // (optional)
+      "location": "Vietnam", // (optional)
       "bio": "Im just here so i don't get fined",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 1944, // (optional) when did the manager start playing fantasy football
