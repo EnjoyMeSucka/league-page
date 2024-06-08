@@ -20,7 +20,7 @@ export const homepageText = `
 
 // // To omit an optional field, set it's value to null
 
-// export const managers = [
+ export const managers = [
 //    {
 //      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
 //      // "managerID": "396524153546534912",
