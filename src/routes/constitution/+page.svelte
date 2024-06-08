@@ -160,9 +160,7 @@
         <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
+        <li>FLEX (RB/WR/TE)</li>
     </ul>
     
     <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
@@ -177,8 +175,6 @@
                 <tr><td>RB</td><td class="right">20</td></tr>
                 <tr><td>WR</td><td class="right">20</td></tr>
                 <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
             </table>
         </div>
 
