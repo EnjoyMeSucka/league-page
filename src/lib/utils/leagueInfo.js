@@ -7,8 +7,8 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p> Home of the free, because of the brave.</p>
-  <p> Eagles blow chode.</p>
+  <p> A place for degenerate gamblers to risk it all for fantasy glory</p>
+  <p> Eagles blow chode. In Tua we trust</p>
 `;
 
 
