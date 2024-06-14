@@ -30,20 +30,20 @@ export const managers = [
        "name": "TheDirtyHarry",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "The Bone Yard", // (optional)
-       "bio": "I once was blind",
+       "bio": "Harold Francis "Dirty Harry" Callahan is a fictional San Francisco police detective and the main protagonist in the Dirty Harry film series, encompassing Dirty Harry (1971), Magnum Force (1973), The Enforcer (1976), Sudden Impact (1983), and The Dead Pool (1988). Callahan is portrayed by Clint Eastwood in each movie.",
        "photo": "/managers/DH.jpeg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 1995, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
-         name: "Beha", // Can be anything (usually your rival's name)
+         name: "He Who Remains", // Can be anything (usually your rival's name)
          link: 6, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/King_Kong_Anniversary1.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 6768, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "It puts the lotion on its skin",
+       "philosophy": "Yeah, well, when an adult male is chasing a female with intent to commit rape, I shoot the bastard - that's my policy.",
        "tradingScale": 10, // 1 - 10
        "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
